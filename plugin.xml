@@ -1,0 +1,7 @@
+<library path="lib/libsearch_planners">
+  <class name="search_planners/DepthFirstSearch" type="search_planners::DepthFirstSearch" base_class_type="nav_core::BaseGlobalPlanner">
+    <description>
+      Depth first search for computing paths
+    </description>
+  </class>
+</library>

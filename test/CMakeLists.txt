@@ -1,0 +1,2 @@
+catch_add_test(test_depth_first_search test_depth_first_search.cpp)
+target_link_libraries(test_depth_first_search ${PROJECT_NAME})

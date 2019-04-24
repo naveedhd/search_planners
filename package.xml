@@ -11,6 +11,15 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
+  <depend>catch_ros</depend>
+  <depend>costmap_2d</depend>
+  <depend>geometry_msgs</depend>
+  <depend>pluginlib</depend>
+  <depend>nav_core</depend>
   <depend>roscpp</depend>
+
+  <export>
+    <nav_core plugin="${prefix}/plugin.xml" />
+  </export>
 
 </package>
